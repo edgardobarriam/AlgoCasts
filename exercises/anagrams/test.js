@@ -8,8 +8,16 @@ test('"hello" is an anagram of "llohe"', () => {
   expect(anagrams('hello', 'llohe')).toBeTruthy();
 });
 
+test('"Hello!" is an anagram of "llohe"', () => {
+  expect(anagrams('Hello!', 'llohe')).toBeTruthy();
+});
+
 test('"Whoa! Hi!" is an anagram of "Hi! Whoa!"', () => {
   expect(anagrams('Whoa! Hi!', 'Hi! Whoa!')).toBeTruthy();
+});
+
+test('"Whoa Hi" is an anagram of "hi! whoa!"', () => {
+  expect(anagrams('Whoa Hi', 'hi! whoa!')).toBeTruthy();
 });
 
 test('"One One" is not an anagram of "Two two two"', () => {
