@@ -15,3 +15,9 @@ test('capitalizes the first letter', () => {
     'I Love Breakfast At Bill Miller Bbq'
   );
 });
+
+test('capitalizes the first letter', () => {
+  expect(capitalize('i love breakfast at a bill miller bbq')).toEqual(
+    'I Love Breakfast At A Bill Miller Bbq'
+  );
+});
