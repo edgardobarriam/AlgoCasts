@@ -19,7 +19,7 @@
 
 function steps(n) {
   for (let i = 1; i <= n; i++) {
-    console.log("".padStart(n - (n - i), "#").padEnd(n," "));
+    console.log("".padStart(i, "#").padEnd(n," "));
   }
 }
 
