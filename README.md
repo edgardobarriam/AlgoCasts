@@ -6,3 +6,5 @@ My Approach:
 - use the first solution that comes to my mind
 - use any available properties or methods built-in into standard js
 - use as little instructions/lines as possible
+- avoid RegEx if possible
+- exercise is considered completed if it passes all tests
