@@ -15,7 +15,7 @@
 //       '#####'
 
 function pyramid(n) {
-  const baseSize = 1 + (2 * (n-1));
+  const baseSize = 2*n - 1;
 
   for (let i = 0; i < n; i++) {
     const numBlocks = 1 + (i*2);
